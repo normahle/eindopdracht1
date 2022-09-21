@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:	#c0c0c0;
+    background-image: url("https://images.wallpapersden.com/image/download/homer-looking-at-the-stars_a2doaGaUmZqaraWkpJRnamtlrWZpaWVnZWc.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+}
+
+#header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1e0078cd;
+
+}
+
+#header img {
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+}
+
+#header img:hover{
+    transition: 0.70s;
+    transform: rotate(360deg);
+}
+
+#header h1 {
+    padding-top: 30px;
+    color: #fff;
+}
+
+#content {
+    
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-image: url("https://3.bp.blogspot.com/-CBkeyJkASJY/XFUltC8eOEI/AAAAAAAABz0/Dlf9jd3RMPQKSz_G63SgYDiC53NmYNdywCKgBGAs/w2560-h1600-c/night-sky-stars-scenery-landscape-21-4K.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #101419;
+    
+}
+
+
+
+#experimental {
+    background-color: #476C9B;
+    height: 500px;
+    padding: 50px;
+
+     background-image: linear-gradient(rgb(60, 5, 240), rgb(46, 3, 133));
+          
+      
+}
+a:link {
+    color: rgb(140, 4, 207);
+    background-color: transparent;
+    text-decoration: none;
+  }
+#emoji1
+{
+    padding-left: 630px;
+    text-align:right;
+    height: 0px;
+    width: 0px;
+      
+  }
+  
+ @keyframes example {
+from {top: 0px; background-color: rgba(255, 255, 0, 0);}
+to {top: 200px;}
+}
+
+
+
+#emoji2
+{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 0, 0, 0.013);
+    position: relative;
+    animation-name:example;
+    animation-duration:3s;
+    animation-delay: 2s;
+    animation-fill-mode:both;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example {
+    from {top: 0px; background-color: rgba(255, 255, 0, 0);}
+    to {top: 200px;}
+
+  }
+
+
+
+#emoji3{
+    text-align: right;
+
+        width: 100px;
+        height: 100px;
+        background: rgba(255, 0, 0, 0.013);
+        position: relative;
+        animation-name:example;
+        animation-duration:3s;
+        animation-delay: 2s;
+        animation-fill-mode: backwards;
+        animation-iteration-count: infinite;
+        
+      }
+     @keyframes example {
+  from {top: 0px; background-color: rgba(255, 255, 0, 0);}
+  to {top: 200px;}
+}
+
+  
+  
+
+
+#experimental h2 {
+    text-align: center;
+}
+
+#footer {
+    background-color: #101419;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+#footer img{
+    width: 30px;
+    height: 30px;
+}
+#footer ul {
+    display: block;
+    padding-top: 10px;
+}
+#footer ul li {
+    display: inline-block;
+   
+}
+
+#footer ul li a {
+    padding: 10px;
+    
+}
+
+#link {
+    text-align: center;
+}
+
+#vid{
+    padding-left: 150px;
+    
+    text-align: center;
+    height: 0px;
+    width:0px ;
+}
+#youtube{
+    text-align: center;
+}
+
+
+
+    
+
